@@ -24,7 +24,7 @@ public class OpenBrowser {
         //örnek websitesi
         String url = "https://demoqa.com/webtables";
         driver.get(url);
-        //searchBox kısmına erişim kodu ve kod çalıştığında direk olarak searchbox üzerinde fare imleci beliriyor.
+        //searchBox kısmına erişim kodu ve kod çalıştığında direkt olarak searchbox üzerinde fare imleci beliriyor.
         WebElement searchBtn = driver.findElement(By.xpath("//*[@id = \"searchBox\"]"));
         searchBtn.click();
 
